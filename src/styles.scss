@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Application-wide Styles */
+button {
+  cursor: pointer;
+}
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  margin: 2em;
+  color: #333;
+  font-family: Cambria, Georgia, serif;
+}
+
+input[type="text"], button {
+  color: #333;
+  font-family: Cambria, Georgia, serif;
+}
+
+/* everywhere else */
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
